@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.7em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #0b3f4e;
+    text-decoration: none;
+}
+
+
+/* =============== */
+/* --- NAVBAR --- */
+/* =============== */
+
+/* Regular Nav */
+#navbar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #ece4e4de;
+}
+
+#navbar header {
+    font-size: 1.5em;
+    padding: 15px;
+    margin: 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#navbar ul {
+    text-decoration: none;
+    padding: 0;
+    text-align: start;
+    overflow-x: hidden;
+}
+
+#navbar ul li {
+    text-decoration: none;
+    list-style: none;
+    border-top: 2px solid #8f8c82;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#navbar ul a {
+    font-size: 1.25em;
+}
+
+.nav-link, header {
+    font-family: 'Tomorrow', sans-serif;
+}
+
+/* ========================= */
+/* --- MAIN-DOC--- */
+/* ========================= */
+
+#main-doc {
+    margin-left: 22%;
+}
+
+.main-section {
+    width: 90%;
+    padding: 2%;    
+}
+
+header {
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+
+.main-section header {
+    text-decoration: underline;
+    color: #1b6fbe;
+}
+
+.main-section {
+    margin-top: 3em;
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    border-radius: 20px;
+}
+
+.main-section p {
+    font-size: 1.25em;
+    width: 90%;
+    margin-left: 2%;
+}
+
+.main-section ul li {
+    font-size: 1.25em;
+}
+
+img {
+    width: 35%;
+}
+
+code {
+    background-color: rgb(26, 25, 25);
+    color: #fff;
+}
+
+.main-code {
+    display: block;
+    background-color: #3818aa;
+    padding: 15px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+    font-size: 1.15rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+}
+
+.display-block {
+    display: block;
+}
+
+.line-spacing {
+    display: block;
+    padding-left: 3%;
+}
+
+.css-selector, .css-value {
+    color: #ffe02f;
+}
+
+.css-properties {
+    color: #5cffff;
+}
